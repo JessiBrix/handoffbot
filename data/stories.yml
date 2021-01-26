@@ -1,9 +1,10 @@
 version: "2.0"
-
 stories:
-
 - story: happy path
   steps:
   - intent: greet
   - action: utter_greet
- 
+- story: Thanks and Goodbye
+  steps:
+  - intent: thanks
+  - action: utter_goodbye
