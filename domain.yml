@@ -15,6 +15,9 @@ responses:
   utter_iamabot:
   - text: "Ich bin ein Handoff-Bot, um ein Service-Center zu simulieren. Wenn Mira nicht weiter weiß, übernehme ich gerne!"
 
+  utter_goodbye:
+  - text: "Auf wiedersehen. Es war toll dir helfen zu dürfen."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
