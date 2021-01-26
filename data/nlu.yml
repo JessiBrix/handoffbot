@@ -6,87 +6,157 @@ nlu:
     - hey
     - hello
     - hi
-    - hello there
-    - good morning
-    - good evening
     - moin
-    - hey there
-    - let's go
     - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Guten Tag
+    - Guten Abend
+    - hallo
+    - Guten Morgen
+    - hallöchen
+    - huhu
+    - Hallo
+    - hii
+    - Hey
+    - Hi
+    - HI
+    - Huhu
+    - Na
+    - Alles fresh?
+    - Moinsen
+    - Hallöle
+    - Moin
+    - Servus
 
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
-    - good by
-    - cee you later
-    - good night
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
     - bye bye
-    - see you later
+    - Bis später
+    - Bis dann
+    - Auf Wiedersehen
+    - Tschüss
+    - Hab einen schönen Tag
+    - Ich wünsche dir einen schönen Tag
+    - Gute Nacht
+    - Schönen Tag noch
 
 - intent: affirm
   examples: |
     - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - j
+    - korrekt
+    - ja
+    - Auf jeden Fall
+    - Gerne
+    - Gern
+    - Sehr gerne
+    - Klar
+    - Warum nicht
+    - Das klingt gut
+    - Stimmt
+    - Selbstverständlich
+    - Ich glaube schon
+    - Okey
+    - ok
+    - Jep
+    - Alles klar
+    - Ja, das bin ich
+    - Ja sicher
+    - Ja, sicher
+    - Natürlich
+    - Ja natürlich
+    - Jawoll
+    - Jawohl
+    - Klasse
+    - in Ordnung
+    - klar
+    - kein Problem
+    - mach das
+    - ja das möchte ich
+    - einverstanden
+    - ja, einverstanden
+    - ich bin damit einverstanden
+    - ja genau
+    - genau das hätte ich gern
+    - gerne
+    - genau das
+    - finde ich gut
+    - ja habe ich
+    - oh ja
+    - Ja bitte
+    - Klar gern
+    - Ich glaube ja
+    - Ja gerne
+    - Ja bin ich
+    - ja ist er
+    - ja gerne
+    - Ja sehr gerne
+    - Ja
+    - Aber siggi
+    - Klaro
+    - Immer
+    - Ja klar!
+    - Ja!
 
 - intent: deny
   examples: |
     - no
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - nicht wirklich
+    - eigentlich nicht
+    - nein
+    - Das möchte ich nicht
+    - Absolut nicht
+    - Auf keinen Fall
+    - Das finde ich nicht gut
+    - Das will ich nicht
+    - niemals
+    - Ich denke nicht
+    - Das gefällt mir nicht
+    - Nein
+    - nee
+    - nope
+    - Nö
+    - leider nicht
+    - keine
+    - nein, das passt mir nicht
+    - nein, das passt mir doch nicht so gut
+    - Nein, das möchte ich nicht
+    - Nee will ich nicht
+    - nein ich will nicht
+    - Nein danke
+    - lieber nicht
+    - ne das möchte ich nicht
+    - bitte nicht
+    - nö danke
+    - Nee bitte nicht
+    - nicht schleichend
+    - Nein zum Glück nicht
+    - Nein nicht das ich wüsste
+    - Ich glaube nicht
+    - Nein er ist nicht beeinträchtigt
+    - Nie wieder
+    - Ist er nicht
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - Bist du ein Mensch?
+    - Bist du ein Chatbot?
+    - Spreche ich mit einem Menschen?
+    - Wer bist du
+    - Wie ist dein Name
+    - Bist du ein Mensch
+    - Bist du ein Bot?
+    - bist du ein mensch
+    - Bist du ein bot
+    - Bist du ein Bot
+
+- intent: thanks
+  examples: |
+    - Dankeschön
+    - Vielen Dank!
+    - danke
+    - Das ist lieb von dir
+    - Wie lieb von dir
